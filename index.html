@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="FitForge — Premium fitness & gym. Transform your body and mind with world-class trainers, personalized workout plans, and state-of-the-art facilities.">
+    <meta name="keywords" content="fitness, gym, workout, training, health, personal training, CrossFit, yoga, boxing">
+    <meta name="author" content="FitForge">
+    <title>FitForge — Forge Your Strongest Self</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ===================== NAVIGATION ===================== -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="nav-logo">FIT<span>FORGE</span></a>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#programs">Programs</a></li>
+                <li><a href="#trainers">Trainers</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#bmi">BMI</a></li>
+                <li><a href="#workout">Workout</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#pricing" class="nav-cta">Join Now</a>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles" id="hero-particles"></div>
+        <div class="container hero-content">
+            <div class="hero-badge animate-on-scroll">
+                <span class="badge-dot"></span>
+                #1 Premium Fitness Club
+            </div>
+            <h1 class="hero-title animate-on-scroll">
+                Forge Your<br>
+                <span class="accent-orange">Strongest</span> Self<br>
+                Build <span class="typing-text" id="typing-text"></span><span class="typing-cursor">|</span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll animate-delay-1">
+                Transform your body and mind with world-class trainers, cutting-edge equipment, 
+                and personalized programs designed to push your limits.
+            </p>
+            <div class="hero-cta animate-on-scroll animate-delay-2">
+                <a href="#pricing" class="btn btn-primary">
+                    <span>Start Your Journey</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </a>
+                <a href="#programs" class="btn btn-secondary">
+                    <span>Explore Programs</span>
+                </a>
+            </div>
+            <div class="hero-stats animate-on-scroll animate-delay-3">
+                <div class="stat-item">
+                    <span class="stat-number counter-number" data-target="15000">0</span>
+                    <span class="stat-label">Active Members</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number counter-number" data-target="85">0</span>
+                    <span class="stat-label">Expert Trainers</span>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <span class="stat-number counter-number" data-target="120">0</span>
+                    <span class="stat-label">Weekly Classes</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===================== ABOUT SECTION ===================== -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper animate-on-scroll">
+                    <div class="about-image-decoration"></div>
+                    <img src="images/hero-gym.png" alt="FitForge premium gym interior" class="about-image">
+                    <div class="about-experience-badge">
+                        <span class="experience-number">12+</span>
+                        <span class="experience-text">Years of<br>Excellence</span>
+                    </div>
+                </div>
+                <div class="about-content">
+                    <span class="section-badge animate-on-scroll">About Us</span>
+                    <h2 class="section-title animate-on-scroll animate-delay-1">
+                        We're Not Just a Gym,<br>We're a <span class="gradient-text">Lifestyle</span>
+                    </h2>
+                    <p class="section-subtitle animate-on-scroll animate-delay-2">
+                        At FitForge, we believe fitness is more than reps and sets. It's about building 
+                        a stronger version of yourself — mentally, physically, and emotionally.
+                    </p>
+                    <div class="feature-cards">
+                        <div class="feature-card animate-on-scroll animate-delay-1">
+                            <div class="feature-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12,6 12,12 16,14"/></svg>
+                            </div>
+                            <h3>24/7 Access</h3>
+                            <p>Train anytime. Our doors never close for members.</p>
+                        </div>
+                        <div class="feature-card animate-on-scroll animate-delay-2">
+                            <div class="feature-icon icon-green">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+                            </div>
+                            <h3>Personal Training</h3>
+                            <p>One-on-one sessions with certified experts.</p>
+                        </div>
+                        <div class="feature-card animate-on-scroll animate-delay-3">
+                            <div class="feature-icon icon-blue">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8h1a4 4 0 010 8h-1M2 8h16v9a4 4 0 01-4 4H6a4 4 0 01-4-4V8z"/><line x1="6" y1="1" x2="6" y2="4"/><line x1="10" y1="1" x2="10" y2="4"/><line x1="14" y1="1" x2="14" y2="4"/></svg>
+                            </div>
+                            <h3>Nutrition Plans</h3>
+                            <p>Custom meal plans to fuel your performance.</p>
+                        </div>
+                        <div class="feature-card animate-on-scroll animate-delay-4">
+                            <div class="feature-icon icon-purple">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 00-2-2h-4a2 2 0 00-2 2v16"/></svg>
+                            </div>
+                            <h3>Modern Equipment</h3>
+                            <p>State-of-the-art machines and free weights.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PROGRAMS SECTION ===================== -->
+    <section class="section programs" id="programs">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Our Programs</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Find Your <span class="gradient-text">Perfect</span> Workout
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    From high-intensity training to mindful yoga — we have a program for every fitness level and goal.
+                </p>
+            </div>
+            <div class="programs-grid">
+                <div class="program-card animate-on-scroll" data-accent="orange">
+                    <div class="program-icon">🔥</div>
+                    <h3 class="program-title">HIIT Training</h3>
+                    <div class="program-meta">
+                        <span>⏱ 45 min</span>
+                        <span>🔥 600 cal</span>
+                        <span>💪 Advanced</span>
+                    </div>
+                    <p class="program-desc">High-intensity intervals that torch calories and build explosive power. Not for the faint-hearted.</p>
+                </div>
+                <div class="program-card animate-on-scroll animate-delay-1" data-accent="green">
+                    <div class="program-icon">🧘</div>
+                    <h3 class="program-title">Power Yoga</h3>
+                    <div class="program-meta">
+                        <span>⏱ 60 min</span>
+                        <span>🔥 350 cal</span>
+                        <span>💪 All Levels</span>
+                    </div>
+                    <p class="program-desc">Build flexibility, core strength, and inner peace through dynamic yoga flows and mindful breathing.</p>
+                </div>
+                <div class="program-card animate-on-scroll animate-delay-2" data-accent="blue">
+                    <div class="program-icon">🏋️</div>
+                    <h3 class="program-title">CrossFit</h3>
+                    <div class="program-meta">
+                        <span>⏱ 50 min</span>
+                        <span>🔥 700 cal</span>
+                        <span>💪 Intermediate</span>
+                    </div>
+                    <p class="program-desc">Functional fitness combining weightlifting, cardio, and gymnastics. Push your limits every session.</p>
+                </div>
+                <div class="program-card animate-on-scroll animate-delay-3" data-accent="orange">
+                    <div class="program-icon">💪</div>
+                    <h3 class="program-title">Strength Training</h3>
+                    <div class="program-meta">
+                        <span>⏱ 55 min</span>
+                        <span>🔥 500 cal</span>
+                        <span>💪 All Levels</span>
+                    </div>
+                    <p class="program-desc">Progressive overload programs designed to build lean muscle mass and raw functional strength.</p>
+                </div>
+                <div class="program-card animate-on-scroll animate-delay-4" data-accent="green">
+                    <div class="program-icon">🏃</div>
+                    <h3 class="program-title">Cardio Blast</h3>
+                    <div class="program-meta">
+                        <span>⏱ 40 min</span>
+                        <span>🔥 550 cal</span>
+                        <span>💪 Beginner</span>
+                    </div>
+                    <p class="program-desc">Heart-pumping cardio sessions combining treadmill, cycling, and plyometrics for maximum endurance.</p>
+                </div>
+                <div class="program-card animate-on-scroll animate-delay-5" data-accent="red">
+                    <div class="program-icon">🥊</div>
+                    <h3 class="program-title">Boxing</h3>
+                    <div class="program-meta">
+                        <span>⏱ 45 min</span>
+                        <span>🔥 650 cal</span>
+                        <span>💪 Intermediate</span>
+                    </div>
+                    <p class="program-desc">Learn striking fundamentals, footwork, and combinations while getting an incredible full-body workout.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TRAINERS SECTION ===================== -->
+    <section class="section trainers" id="trainers">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Our Team</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Meet Your <span class="gradient-text">Elite</span> Trainers
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Certified professionals dedicated to helping you reach your full potential.
+                </p>
+            </div>
+            <div class="trainers-grid">
+                <div class="trainer-card animate-on-scroll">
+                    <div class="trainer-image-wrapper">
+                        <img src="images/trainer-marcus.png" alt="Marcus Thompson - Head Trainer" class="trainer-image">
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#" aria-label="Instagram">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </a>
+                                <a href="#" aria-label="Twitter">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                                </a>
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Marcus Thompson</h3>
+                        <p class="trainer-specialty">Head Trainer • Strength & Conditioning</p>
+                        <div class="trainer-details">
+                            <span class="trainer-exp">12 yrs exp</span>
+                            <div class="trainer-rating">
+                                <span>★★★★★</span>
+                                <span class="rating-number">4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card animate-on-scroll animate-delay-1">
+                    <div class="trainer-image-wrapper">
+                        <img src="images/trainer-sarah.png" alt="Sarah Chen - Yoga Instructor" class="trainer-image">
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#" aria-label="Instagram">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </a>
+                                <a href="#" aria-label="Twitter">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                                </a>
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Sarah Chen</h3>
+                        <p class="trainer-specialty">Yoga & Mindfulness Instructor</p>
+                        <div class="trainer-details">
+                            <span class="trainer-exp">8 yrs exp</span>
+                            <div class="trainer-rating">
+                                <span>★★★★★</span>
+                                <span class="rating-number">5.0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card animate-on-scroll animate-delay-2">
+                    <div class="trainer-image-wrapper">
+                        <img src="images/trainer-diego.png" alt="Diego Ramirez - Boxing Coach" class="trainer-image">
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#" aria-label="Instagram">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </a>
+                                <a href="#" aria-label="Twitter">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                                </a>
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Diego Ramirez</h3>
+                        <p class="trainer-specialty">Boxing & MMA Coach</p>
+                        <div class="trainer-details">
+                            <span class="trainer-exp">10 yrs exp</span>
+                            <div class="trainer-rating">
+                                <span>★★★★★</span>
+                                <span class="rating-number">4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="trainer-card animate-on-scroll animate-delay-3">
+                    <div class="trainer-image-wrapper">
+                        <img src="images/trainer-elena.png" alt="Elena Kowalski - CrossFit Trainer" class="trainer-image">
+                        <div class="trainer-overlay">
+                            <div class="trainer-social">
+                                <a href="#" aria-label="Instagram">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                                </a>
+                                <a href="#" aria-label="Twitter">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                                </a>
+                                <a href="#" aria-label="LinkedIn">
+                                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="trainer-info">
+                        <h3 class="trainer-name">Elena Kowalski</h3>
+                        <p class="trainer-specialty">CrossFit & Functional Training</p>
+                        <div class="trainer-details">
+                            <span class="trainer-exp">7 yrs exp</span>
+                            <div class="trainer-rating">
+                                <span>★★★★★</span>
+                                <span class="rating-number">4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== SCHEDULE SECTION ===================== -->
+    <section class="section schedule" id="schedule">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Class Schedule</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Weekly <span class="gradient-text">Training</span> Schedule
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Plan your week with our diverse range of classes. Something for every day.
+                </p>
+            </div>
+            <div class="schedule-wrapper animate-on-scroll">
+                <div class="schedule-tabs">
+                    <button class="schedule-tab active" data-day="mon">Mon</button>
+                    <button class="schedule-tab" data-day="tue">Tue</button>
+                    <button class="schedule-tab" data-day="wed">Wed</button>
+                    <button class="schedule-tab" data-day="thu">Thu</button>
+                    <button class="schedule-tab" data-day="fri">Fri</button>
+                    <button class="schedule-tab" data-day="sat">Sat</button>
+                    <button class="schedule-tab" data-day="sun">Sun</button>
+                </div>
+                <div class="schedule-content">
+                    <!-- Monday -->
+                    <div class="schedule-day active" data-day="mon">
+                        <div class="timeline-item" data-type="hiit">
+                            <div class="timeline-time">06:00</div>
+                            <div class="timeline-card">
+                                <h4>Morning HIIT Blast</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">45 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="yoga">
+                            <div class="timeline-time">08:30</div>
+                            <div class="timeline-card">
+                                <h4>Sunrise Yoga Flow</h4>
+                                <p class="timeline-trainer">with Sarah Chen</p>
+                                <span class="timeline-duration">60 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="strength">
+                            <div class="timeline-time">12:00</div>
+                            <div class="timeline-card">
+                                <h4>Strength Fundamentals</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">55 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="boxing">
+                            <div class="timeline-time">17:00</div>
+                            <div class="timeline-card">
+                                <h4>Boxing Basics</h4>
+                                <p class="timeline-trainer">with Diego Ramirez</p>
+                                <span class="timeline-duration">45 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="crossfit">
+                            <div class="timeline-time">19:00</div>
+                            <div class="timeline-card">
+                                <h4>CrossFit WOD</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">50 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Tuesday -->
+                    <div class="schedule-day" data-day="tue">
+                        <div class="timeline-item" data-type="cardio">
+                            <div class="timeline-time">06:00</div>
+                            <div class="timeline-card">
+                                <h4>Cardio Blast</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">40 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="strength">
+                            <div class="timeline-time">09:00</div>
+                            <div class="timeline-card">
+                                <h4>Upper Body Power</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">55 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="yoga">
+                            <div class="timeline-time">12:00</div>
+                            <div class="timeline-card">
+                                <h4>Power Yoga</h4>
+                                <p class="timeline-trainer">with Sarah Chen</p>
+                                <span class="timeline-duration">60 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="boxing">
+                            <div class="timeline-time">18:00</div>
+                            <div class="timeline-card">
+                                <h4>Fight Night Training</h4>
+                                <p class="timeline-trainer">with Diego Ramirez</p>
+                                <span class="timeline-duration">50 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Wednesday -->
+                    <div class="schedule-day" data-day="wed">
+                        <div class="timeline-item" data-type="crossfit">
+                            <div class="timeline-time">06:30</div>
+                            <div class="timeline-card">
+                                <h4>CrossFit Endurance</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">50 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="yoga">
+                            <div class="timeline-time">10:00</div>
+                            <div class="timeline-card">
+                                <h4>Restorative Yoga</h4>
+                                <p class="timeline-trainer">with Sarah Chen</p>
+                                <span class="timeline-duration">60 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="hiit">
+                            <div class="timeline-time">17:00</div>
+                            <div class="timeline-card">
+                                <h4>Tabata Torture</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">30 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="strength">
+                            <div class="timeline-time">19:00</div>
+                            <div class="timeline-card">
+                                <h4>Lower Body Strength</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">55 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Thursday -->
+                    <div class="schedule-day" data-day="thu">
+                        <div class="timeline-item" data-type="boxing">
+                            <div class="timeline-time">07:00</div>
+                            <div class="timeline-card">
+                                <h4>Boxing Conditioning</h4>
+                                <p class="timeline-trainer">with Diego Ramirez</p>
+                                <span class="timeline-duration">45 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="cardio">
+                            <div class="timeline-time">10:00</div>
+                            <div class="timeline-card">
+                                <h4>Spin & Burn</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">40 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="yoga">
+                            <div class="timeline-time">12:30</div>
+                            <div class="timeline-card">
+                                <h4>Vinyasa Flow</h4>
+                                <p class="timeline-trainer">with Sarah Chen</p>
+                                <span class="timeline-duration">60 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="hiit">
+                            <div class="timeline-time">18:00</div>
+                            <div class="timeline-card">
+                                <h4>HIIT & Abs</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">40 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Friday -->
+                    <div class="schedule-day" data-day="fri">
+                        <div class="timeline-item" data-type="crossfit">
+                            <div class="timeline-time">06:00</div>
+                            <div class="timeline-card">
+                                <h4>CrossFit Chipper</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">50 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="strength">
+                            <div class="timeline-time">09:00</div>
+                            <div class="timeline-card">
+                                <h4>Full Body Power</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">55 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="boxing">
+                            <div class="timeline-time">17:30</div>
+                            <div class="timeline-card">
+                                <h4>Sparring Session</h4>
+                                <p class="timeline-trainer">with Diego Ramirez</p>
+                                <span class="timeline-duration">45 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="yoga">
+                            <div class="timeline-time">19:30</div>
+                            <div class="timeline-card">
+                                <h4>Yin Yoga & Meditation</h4>
+                                <p class="timeline-trainer">with Sarah Chen</p>
+                                <span class="timeline-duration">60 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Saturday -->
+                    <div class="schedule-day" data-day="sat">
+                        <div class="timeline-item" data-type="hiit">
+                            <div class="timeline-time">08:00</div>
+                            <div class="timeline-card">
+                                <h4>Weekend Warrior HIIT</h4>
+                                <p class="timeline-trainer">with Marcus Thompson</p>
+                                <span class="timeline-duration">45 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="crossfit">
+                            <div class="timeline-time">10:00</div>
+                            <div class="timeline-card">
+                                <h4>Team CrossFit</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">50 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="boxing">
+                            <div class="timeline-time">14:00</div>
+                            <div class="timeline-card">
+                                <h4>Open Sparring</h4>
+                                <p class="timeline-trainer">with Diego Ramirez</p>
+                                <span class="timeline-duration">60 min</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Sunday -->
+                    <div class="schedule-day" data-day="sun">
+                        <div class="timeline-item" data-type="yoga">
+                            <div class="timeline-time">09:00</div>
+                            <div class="timeline-card">
+                                <h4>Sunday Reset Yoga</h4>
+                                <p class="timeline-trainer">with Sarah Chen</p>
+                                <span class="timeline-duration">75 min</span>
+                            </div>
+                        </div>
+                        <div class="timeline-item" data-type="cardio">
+                            <div class="timeline-time">11:00</div>
+                            <div class="timeline-card">
+                                <h4>Recovery Cardio</h4>
+                                <p class="timeline-trainer">with Elena Kowalski</p>
+                                <span class="timeline-duration">35 min</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== BMI CALCULATOR ===================== -->
+    <section class="section bmi-calculator" id="bmi">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Health Check</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Calculate Your <span class="gradient-text">BMI</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Know your Body Mass Index and take the first step toward a healthier you.
+                </p>
+            </div>
+            <div class="bmi-card animate-on-scroll">
+                <div class="bmi-inputs">
+                    <div class="input-group">
+                        <label for="bmi-height">Height (cm)</label>
+                        <input type="number" id="bmi-height" placeholder="e.g. 175" min="100" max="250">
+                        <span class="input-unit">cm</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="bmi-weight">Weight (kg)</label>
+                        <input type="number" id="bmi-weight" placeholder="e.g. 70" min="30" max="300">
+                        <span class="input-unit">kg</span>
+                    </div>
+                </div>
+                <button class="btn btn-primary bmi-btn" id="bmi-calculate">
+                    <span>Calculate BMI</span>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
+                </button>
+                <div class="bmi-result" id="bmi-result-area">
+                    <div class="bmi-gauge">
+                        <div class="bmi-gauge-bg"></div>
+                        <div class="bmi-gauge-fill" id="bmi-gauge-fill"></div>
+                        <div class="bmi-gauge-center">
+                            <span class="bmi-value" id="bmi-value">0.0</span>
+                            <span class="bmi-label">BMI</span>
+                        </div>
+                    </div>
+                    <div class="bmi-scale">
+                        <div class="scale-item underweight">Underweight<br><small>&lt;18.5</small></div>
+                        <div class="scale-item normal">Normal<br><small>18.5-24.9</small></div>
+                        <div class="scale-item overweight">Overweight<br><small>25-29.9</small></div>
+                        <div class="scale-item obese">Obese<br><small>≥30</small></div>
+                    </div>
+                    <div class="bmi-category" id="bmi-category"></div>
+                    <div class="bmi-tips" id="bmi-tips"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== WORKOUT BUILDER ===================== -->
+    <section class="section workout-builder" id="workout">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Plan Builder</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Build Your <span class="gradient-text">Workout</span> Plan
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Answer a few questions and get a personalized weekly workout plan tailored to your goals.
+                </p>
+            </div>
+            <div class="workout-card animate-on-scroll">
+                <div class="workout-progress">
+                    <div class="progress-step active" data-step="1">
+                        <span class="step-number">1</span>
+                        <span class="step-label">Goal</span>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="2">
+                        <span class="step-number">2</span>
+                        <span class="step-label">Level</span>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="3">
+                        <span class="step-number">3</span>
+                        <span class="step-label">Days</span>
+                    </div>
+                    <div class="progress-line"></div>
+                    <div class="progress-step" data-step="4">
+                        <span class="step-number">4</span>
+                        <span class="step-label">Plan</span>
+                    </div>
+                </div>
+                <div class="workout-steps">
+                    <!-- Step 1: Goal -->
+                    <div class="workout-step active" data-step="1">
+                        <h3 class="step-title">What's your fitness goal?</h3>
+                        <div class="options-grid">
+                            <div class="option-card" data-value="lose-weight">
+                                <span class="option-icon">🔥</span>
+                                <span class="option-label">Lose Weight</span>
+                                <span class="option-desc">Burn fat & get lean</span>
+                            </div>
+                            <div class="option-card" data-value="build-muscle">
+                                <span class="option-icon">💪</span>
+                                <span class="option-label">Build Muscle</span>
+                                <span class="option-desc">Gain size & strength</span>
+                            </div>
+                            <div class="option-card" data-value="improve-endurance">
+                                <span class="option-icon">🏃</span>
+                                <span class="option-label">Improve Endurance</span>
+                                <span class="option-desc">Boost stamina & cardio</span>
+                            </div>
+                            <div class="option-card" data-value="general-fitness">
+                                <span class="option-icon">⚡</span>
+                                <span class="option-label">General Fitness</span>
+                                <span class="option-desc">Stay active & healthy</span>
+                            </div>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-primary workout-next" disabled>
+                                <span>Next Step</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Step 2: Level -->
+                    <div class="workout-step" data-step="2">
+                        <h3 class="step-title">What's your experience level?</h3>
+                        <div class="options-grid options-grid-3">
+                            <div class="option-card" data-value="beginner">
+                                <span class="option-icon">🌱</span>
+                                <span class="option-label">Beginner</span>
+                                <span class="option-desc">New to fitness</span>
+                            </div>
+                            <div class="option-card" data-value="intermediate">
+                                <span class="option-icon">🔥</span>
+                                <span class="option-label">Intermediate</span>
+                                <span class="option-desc">1-3 years training</span>
+                            </div>
+                            <div class="option-card" data-value="advanced">
+                                <span class="option-icon">🏆</span>
+                                <span class="option-label">Advanced</span>
+                                <span class="option-desc">3+ years training</span>
+                            </div>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-secondary workout-back">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15,18 9,12 15,6"/></svg>
+                                <span>Back</span>
+                            </button>
+                            <button class="btn btn-primary workout-next" disabled>
+                                <span>Next Step</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Step 3: Days -->
+                    <div class="workout-step" data-step="3">
+                        <h3 class="step-title">Select your training days <small>(at least 3)</small></h3>
+                        <div class="days-grid">
+                            <label class="day-option">
+                                <input type="checkbox" value="Monday">
+                                <span class="day-label">Mon</span>
+                            </label>
+                            <label class="day-option">
+                                <input type="checkbox" value="Tuesday">
+                                <span class="day-label">Tue</span>
+                            </label>
+                            <label class="day-option">
+                                <input type="checkbox" value="Wednesday">
+                                <span class="day-label">Wed</span>
+                            </label>
+                            <label class="day-option">
+                                <input type="checkbox" value="Thursday">
+                                <span class="day-label">Thu</span>
+                            </label>
+                            <label class="day-option">
+                                <input type="checkbox" value="Friday">
+                                <span class="day-label">Fri</span>
+                            </label>
+                            <label class="day-option">
+                                <input type="checkbox" value="Saturday">
+                                <span class="day-label">Sat</span>
+                            </label>
+                            <label class="day-option">
+                                <input type="checkbox" value="Sunday">
+                                <span class="day-label">Sun</span>
+                            </label>
+                        </div>
+                        <div class="step-actions">
+                            <button class="btn btn-secondary workout-back">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15,18 9,12 15,6"/></svg>
+                                <span>Back</span>
+                            </button>
+                            <button class="btn btn-primary" id="generate-plan" disabled>
+                                <span>Generate My Plan</span>
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!-- Step 4: Result -->
+                    <div class="workout-step" data-step="4">
+                        <h3 class="step-title">🎉 Your Personalized Plan</h3>
+                        <div class="workout-result" id="workout-result"></div>
+                        <div class="step-actions">
+                            <button class="btn btn-secondary" id="workout-restart">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="1,4 1,10 7,10"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10"/></svg>
+                                <span>Start Over</span>
+                            </button>
+                            <button class="btn btn-primary" onclick="window.print()">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6,9 6,2 18,2 18,9"/><path d="M6 18H4a2 2 0 01-2-2v-5a2 2 0 012-2h16a2 2 0 012 2v5a2 2 0 01-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+                                <span>Print Plan</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== PRICING SECTION ===================== -->
+    <section class="section pricing" id="pricing">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Membership</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Choose Your <span class="gradient-text">Plan</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Invest in yourself. Every plan includes access to our world-class facilities.
+                </p>
+            </div>
+            <div class="pricing-toggle animate-on-scroll">
+                <span class="toggle-label active" id="toggle-monthly">Monthly</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" class="pricing-toggle-input" id="pricing-toggle">
+                    <span class="toggle-slider"></span>
+                </label>
+                <span class="toggle-label" id="toggle-yearly">Yearly <span class="toggle-save">Save 20%</span></span>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card animate-on-scroll">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Starter</h3>
+                        <p class="pricing-tagline">Perfect for beginners</p>
+                        <div class="pricing-price">
+                            <span class="pricing-currency">$</span>
+                            <span class="pricing-amount" data-monthly="29" data-yearly="279">29</span>
+                            <span class="pricing-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">Access to gym floor</li>
+                        <li class="included">Locker room access</li>
+                        <li class="included">2 group classes/week</li>
+                        <li class="included">Basic fitness assessment</li>
+                        <li class="excluded">Personal training sessions</li>
+                        <li class="excluded">Nutrition planning</li>
+                        <li class="excluded">Sauna & spa access</li>
+                        <li class="excluded">Priority booking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary pricing-btn">Get Started</a>
+                </div>
+                <div class="pricing-card popular animate-on-scroll animate-delay-1">
+                    <div class="popular-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Pro</h3>
+                        <p class="pricing-tagline">For serious athletes</p>
+                        <div class="pricing-price">
+                            <span class="pricing-currency">$</span>
+                            <span class="pricing-amount" data-monthly="59" data-yearly="569">59</span>
+                            <span class="pricing-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">Full gym access 24/7</li>
+                        <li class="included">Locker room & showers</li>
+                        <li class="included">Unlimited group classes</li>
+                        <li class="included">Advanced fitness assessment</li>
+                        <li class="included">2 personal training/month</li>
+                        <li class="included">Basic nutrition planning</li>
+                        <li class="excluded">Sauna & spa access</li>
+                        <li class="excluded">Priority booking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-primary pricing-btn">Get Started</a>
+                </div>
+                <div class="pricing-card animate-on-scroll animate-delay-2">
+                    <div class="pricing-header">
+                        <h3 class="pricing-name">Elite</h3>
+                        <p class="pricing-tagline">The ultimate experience</p>
+                        <div class="pricing-price">
+                            <span class="pricing-currency">$</span>
+                            <span class="pricing-amount" data-monthly="99" data-yearly="949">99</span>
+                            <span class="pricing-period">/month</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li class="included">Full gym access 24/7</li>
+                        <li class="included">Premium locker & amenities</li>
+                        <li class="included">Unlimited group classes</li>
+                        <li class="included">Comprehensive assessment</li>
+                        <li class="included">8 personal training/month</li>
+                        <li class="included">Full nutrition planning</li>
+                        <li class="included">Sauna & spa access</li>
+                        <li class="included">Priority booking</li>
+                    </ul>
+                    <a href="#contact" class="btn btn-secondary pricing-btn">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== TESTIMONIALS SECTION ===================== -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Testimonials</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Real <span class="gradient-text">Transformations</span>
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Hear from our members who forged their strongest selves.
+                </p>
+            </div>
+            <div class="testimonial-carousel animate-on-scroll">
+                <div class="testimonial-track" id="testimonial-track">
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-content">FitForge completely transformed my life. I lost 30 pounds in 6 months and gained confidence I never knew I had. The trainers here are unlike anywhere else — they genuinely care about your progress.</p>
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-author">
+                            <img src="images/client-james.png" alt="James Wilson" class="testimonial-avatar">
+                            <div class="testimonial-author-info">
+                                <h4>James Wilson</h4>
+                                <p>Lost 30 lbs in 6 months</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-content">As a working mom, finding time for fitness was always my excuse. FitForge's flexible schedule and the amazing yoga classes with Sarah changed everything. I'm stronger, more focused, and happier than ever.</p>
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-author">
+                            <img src="images/client-priya.png" alt="Priya Sharma" class="testimonial-avatar">
+                            <div class="testimonial-author-info">
+                                <h4>Priya Sharma</h4>
+                                <p>Member for 2 years</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-quote">"</div>
+                        <p class="testimonial-content">I've been to dozens of gyms over the years, but nothing compares to FitForge. The CrossFit program pushed me beyond what I thought was possible. I've never been in better shape at 42.</p>
+                        <div class="testimonial-rating">★★★★★</div>
+                        <div class="testimonial-author">
+                            <img src="images/client-mike.png" alt="Mike Patterson" class="testimonial-avatar">
+                            <div class="testimonial-author-info">
+                                <h4>Mike Patterson</h4>
+                                <p>Gained 15 lbs muscle</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-nav">
+                    <button class="testimonial-prev" aria-label="Previous testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15,18 9,12 15,6"/></svg>
+                    </button>
+                    <div class="testimonial-dots">
+                        <button class="dot active" data-index="0" aria-label="Testimonial 1"></button>
+                        <button class="dot" data-index="1" aria-label="Testimonial 2"></button>
+                        <button class="dot" data-index="2" aria-label="Testimonial 3"></button>
+                    </div>
+                    <button class="testimonial-next" aria-label="Next testimonial">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9,18 15,12 9,6"/></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== CONTACT SECTION ===================== -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header text-center">
+                <span class="section-badge animate-on-scroll">Get In Touch</span>
+                <h2 class="section-title animate-on-scroll animate-delay-1">
+                    Ready to <span class="gradient-text">Start</span>?
+                </h2>
+                <p class="section-subtitle animate-on-scroll animate-delay-2">
+                    Drop us a message and we'll get back to you within 24 hours.
+                </p>
+            </div>
+            <div class="contact-grid">
+                <form class="contact-form animate-on-scroll" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" id="contact-name" required>
+                        <label for="contact-name">Your Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="contact-email" required>
+                        <label for="contact-email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="contact-phone">
+                        <label for="contact-phone">Phone Number (Optional)</label>
+                    </div>
+                    <div class="form-group">
+                        <select id="contact-interest" required>
+                            <option value="" disabled selected></option>
+                            <option value="membership">Membership Inquiry</option>
+                            <option value="personal-training">Personal Training</option>
+                            <option value="group-classes">Group Classes</option>
+                            <option value="nutrition">Nutrition Planning</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="contact-interest">I'm Interested In</label>
+                    </div>
+                    <div class="form-group full-width">
+                        <textarea id="contact-message" rows="4" required></textarea>
+                        <label for="contact-message">Your Message</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary contact-btn">
+                        <span>Send Message</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+                    </button>
+                    <div class="form-success" id="form-success">
+                        <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#00FF87" stroke-width="2"><path d="M22 11.08V12a10 10 0 11-5.93-9.14"/><polyline points="22,4 12,14.01 9,11.01"/></svg>
+                        <h3>Message Sent!</h3>
+                        <p>We'll get back to you within 24 hours.</p>
+                    </div>
+                </form>
+                <div class="contact-info animate-on-scroll animate-delay-1">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <div>
+                            <h4>Visit Us</h4>
+                            <p>123 Forge Avenue, Fitness District<br>New York, NY 10001</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72 12.84 12.84 0 00.7 2.81 2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45 12.84 12.84 0 002.81.7A2 2 0 0122 16.92z"/></svg>
+                        </div>
+                        <div>
+                            <h4>Call Us</h4>
+                            <p>+1 (555) 123-4567<br>Mon-Sun: 6AM - 11PM</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <div>
+                            <h4>Email Us</h4>
+                            <p>hello@fitforge.com<br>support@fitforge.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-social">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Instagram">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="Twitter">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75,15.02 15.5,11.75 9.75,8.48"/></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================== FOOTER ===================== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <a href="#home" class="footer-logo">FIT<span>FORGE</span></a>
+                    <p class="footer-desc">Empowering you to forge your strongest self since 2014. Premium fitness, expert trainers, and a community that never quits.</p>
+                    <div class="footer-social">
+                        <a href="#" aria-label="Instagram">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        </a>
+                        <a href="#" aria-label="Facebook">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="Twitter">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"/></svg>
+                        </a>
+                        <a href="#" aria-label="YouTube">
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 00-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 00-1.94 2A29 29 0 001 11.75a29 29 0 00.46 5.33A2.78 2.78 0 003.4 19.1c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 001.94-2 29 29 0 00.46-5.25 29 29 0 00-.46-5.43z"/><polygon points="9.75,15.02 15.5,11.75 9.75,8.48"/></svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#programs">Programs</a></li>
+                        <li><a href="#trainers">Trainers</a></li>
+                        <li><a href="#schedule">Schedule</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Programs</h4>
+                    <ul>
+                        <li><a href="#programs">HIIT Training</a></li>
+                        <li><a href="#programs">Power Yoga</a></li>
+                        <li><a href="#programs">CrossFit</a></li>
+                        <li><a href="#programs">Boxing</a></li>
+                        <li><a href="#programs">Strength Training</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Get fitness tips and exclusive offers delivered to your inbox.</p>
+                    <form class="newsletter-form" id="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22,2 15,22 11,13 2,9"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 FitForge. All rights reserved. Designed with 🔥 for greatness.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="back-to-top" aria-label="Back to top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18,15 12,9 6,15"/></svg>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
