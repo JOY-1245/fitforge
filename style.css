@@ -2414,9 +2414,28 @@ button {
   }
 
   .nav-cta {
+    display: none;
+  }
+
+  .nav-links.active ~ .nav-cta {
+    display: none;
+  }
+
+  /* Show Join Now inside the mobile menu */
+  .nav-links::after {
+    content: 'Join Now';
+    display: block;
     margin-top: 16px;
-    width: 100%;
-    justify-content: center;
+    padding: 14px 24px;
+    background: var(--gradient-orange);
+    color: #fff;
+    font-weight: 600;
+    font-size: 0.95rem;
+    border-radius: 50px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    box-shadow: 0 4px 15px rgba(255, 107, 53, 0.25);
+    cursor: pointer;
   }
 
   /* Hero */
