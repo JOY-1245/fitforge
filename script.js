@@ -215,7 +215,7 @@ document.addEventListener('DOMContentLoaded', () => {
       bmiFill.style.transition = 'transform 1s ease-out';
     }
 
-    bmiResultArea?.classList.add('visible');
+    bmiResultArea?.classList.add('show');
   });
 
   /* ============================================================
