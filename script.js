@@ -26,6 +26,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // Close mobile menu on CTA click
+  const navCta = document.querySelector('.nav-cta');
+  navCta?.addEventListener('click', () => {
+    navToggle?.classList.remove('active');
+    navLinks?.classList.remove('active');
+  });
+
   // Shrink navbar on scroll
   window.addEventListener('scroll', () => {
     navbar?.classList.toggle('scrolled', window.scrollY > 100);
